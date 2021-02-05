@@ -104,7 +104,7 @@ export const Restaurants = () => {
                 <RestaurantsContentWrapper>
                   <RestaurantsImageNode src={RestaurantImage} />
                   <MainText>{item.name}</MainText>
-                  <SubText>{`配送料:${item.fee}円 ${item.item_required}分`}</SubText>
+                  <SubText>{`配送料:${item.fee}円 ${item.time_required}分`}</SubText>
                 </RestaurantsContentWrapper>
               </Link>
             )
