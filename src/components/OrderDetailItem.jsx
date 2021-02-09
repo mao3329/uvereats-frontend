@@ -33,18 +33,18 @@ export const OrderDetailItem = ({
         {restaurantName}
       </Link>
     </LineWrapper>
-    <LinkWrapper>
+    <LineWrapper>
       <QueryBuilderIcon />
       {timeRequired}分で到着予定
-    </LinkWrapper>
-    <LinkWrapper>
+    </LineWrapper>
+    <LineWrapper>
       <p>
         商品数
       </p>
       <p>
         {foodCount}
       </p>
-    </LinkWrapper>
+    </LineWrapper>
     <LineWrapper>
       <p>
         商品数:{foodCount}
@@ -53,21 +53,21 @@ export const OrderDetailItem = ({
         ¥ {price}
       </p>
     </LineWrapper>
-    <LinkWrapper>
+    <LineWrapper>
       <p>
         配送料
       </p>
       <p>
         ¥ {restaurantFee}
       </p>
-    </LinkWrapper>
-    <LinkWrapper>
+    </LineWrapper>
+    <LineWrapper>
       <AmountText>
         合計
       </AmountText>
       <AmountText>
         ¥ {price + restaurantFee}
       </AmountText>
-    </LinkWrapper>
+    </LineWrapper>
   </Fragment>
 );
